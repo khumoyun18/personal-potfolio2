@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dasturchi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Dev<span>Portfolio</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#about">Haqimda</a></li>
+                <li><a href="#projects">Loyihalar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Temani o'zgartirish"><i class="fas fa-moon"
+                        style="color: white;"></i></button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Salom, men <span class="highlight">Web Dasturchiman</span></h1>
+                <p>Zamonaviy, tez va chiroyli veb-saytlar hamda veb-ilovalarni yarataman.</p>
+                <a href="#projects" class="btn">Mening ishlarim</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Haqimda</h2>
+            <p class="about-text">Men zamonaviy texnologiyalar (HTML, CSS, JavaScript, React, Node.js) yordamida raqamli
+                yechimlar yaratishga qiziqaman. Har bir kod qatorimda sifat va dizaynga e'tibor beraman.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Loyihalar</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>E-commerce Sayt</h3>
+                    <p>Onlayn do'kon uchun to'liq ishlaydigan platforma.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Blog Platformasi</h3>
+                    <p>Maqolalar yozish va o'qish uchun ijtimoiy tarmoq.</p>
+                </div>
+                <div class="project-card">
+                    <h3>CRM Tizim</h3>
+                    <p>Biznesni boshqarish uchun qulay boshqaruv paneli.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Aloqa</h2>
+            <p>Men bilan hamkorlik qilishni istasangiz, xabar qoldiring!</p>
+            <form class="contact-form" id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Ismingiz" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Email manzilingiz" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" placeholder="Xabaringizni yozing..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Xabarni yuborish</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 DevPortfolio. Barcha huquqlar himoyalangan.</p>
+            <div class="social-links">
+                <a href="#">Telegram</a>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
